@@ -1,0 +1,30 @@
+{
+  "name": "rollup-plugin-angular-aot-decorators",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarivo/rollup-plugin-angular-aot-decorators.git"
+  },
+  "keywords": [
+    "angular",
+    "rollup-plugin",
+    "rollup",
+    "aot",
+    "decorators"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarivo/rollup-plugin-angular-aot-decorators/issues"
+  },
+  "homepage": "https://github.com/jarivo/rollup-plugin-angular-aot-decorators#readme",
+  "dependencies": {
+    "magic-string": "^0.21.3",
+    "rollup-pluginutils": "^2.0.1"
+  }
+}
