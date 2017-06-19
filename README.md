@@ -1,3 +1,6 @@
+[![npm](https://img.shields.io/npm/v/rollup-plugin-angular-aot-decorators.svg?style=flat-square)](https://www.npmjs.com/package/rollup-plugin-angular-aot-decorators)
+[![npm](https://img.shields.io/npm/l/rollup-plugin-angular-aot-decorators.svg?style=flat-square)](https://www.npmjs.com/package/rollup-plugin-angular-aot-decorators)
+
 # rollup-plugin-angular-aot-decorators
 
 Remove TypeScript decorators when compiling Angular with Ahead-Of-Time compilation
