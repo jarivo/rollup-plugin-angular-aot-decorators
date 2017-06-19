@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-angular-aot-decorators",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/rollup-plugin-angular-aot-decorators.cjs.js",
   "jsnext:main": "dist/rollup-plugin-angular-aot-decorators.es.js",
