@@ -2,9 +2,12 @@
   "name": "rollup-plugin-angular-aot-decorators",
   "version": "0.0.1",
   "description": "",
-  "main": "src/index.js",
+  "main": "dist/rollup-plugin-angular-aot-decorators.cjs.js",
+  "jsnext:main": "dist/rollup-plugin-angular-aot-decorators.es.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava ./test/index.js",
+    "build": "rollup -c -f cjs -o dist/rollup-plugin-angular-aot-decorators.cjs.js && rollup -c -f es -o dist/rollup-plugin-angular-aot-decorators.es.js",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
@@ -26,5 +29,19 @@
   "dependencies": {
     "magic-string": "^0.21.3",
     "rollup-pluginutils": "^2.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "rollup": "^0.43.0"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@ava/stage-4"
+    ]
   }
 }
